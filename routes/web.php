@@ -1,3 +1,6 @@
+Route::get('/home', function () {
+    return Inertia::render('Home');
+})->name('home');
 <?php
 
 use App\Http\Controllers\ProfileController;
